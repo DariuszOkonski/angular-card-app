@@ -1,7 +1,10 @@
 {
+  "homepage": "https://dariuszokonski.github.io/angular-card-app/",
   "name": "02-cards",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -19,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "bulma": "^0.9.3",
+    "gh-pages": "^3.2.3",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
